@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Pro</title>
+    <link rel="stylesheet" href="pqr.css" 
+      
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">⏱️ Stopwatch Pro</h1>
+        
+        <div class="display" id="display">
+            <div class="time" id="timeDisplay">00:00:00</div>
+            <div class="milliseconds" id="millisecondsDisplay">000</div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-start" id="startBtn">Start</button>
+            <button class="btn btn-pause" id="pauseBtn" disabled>Pause</button>
+            <button class="btn btn-lap" id="lapBtn" disabled>Lap</button>
+            <button class="btn btn-reset" id="resetBtn">Reset</button>
+        </div>
+
+        <div class="laps-section">
+            <h3 class="laps-title">Lap Times</h3>
+            <div class="laps-list" id="lapsList">
+                <div class="no-laps">No lap times recorded</div>
+            </div>
+        </div>
+    </div>
+     <script src="app.js"></script>
+   
+</body>
+</html>
